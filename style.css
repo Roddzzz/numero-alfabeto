@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mooli-regular {
+    font-family: "Mooli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #0abab5;
+}
+
+.box {
+    font-family: Lobster, sans-serif;
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    margin: 200px auto;
+    padding: 20px auto;
+    box-shadow: 8px 8px 8px #5F9EA0;
+}
+
+h1 {
+    font-family: Lobster, sans-serif;
+    font-size: 3em;
+    color: #0e2020;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+p {
+    font-family: Mooli;
+    letter-spacing: 2px ;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+#number {
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 33px;
+    text-align: center;
+    justify-content: center;
+}
+
+.button {
+    width: 350px;
+    height: 50px;
+    background-color: #5F9EA0;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.button:hover {
+    background: linear-gradient(45deg,#5F9EA0, #87c2c4);
+    color: #0b4e50;
+    box-shadow: 0px 3px 3px #0e2020;
+    transition: all 0.3s ease-in-out;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, box-shadow;
+}
+
+.result {
+    font-family: Mooli;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #0e2020;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    background-color: #0b4e50;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: Mooli, sans-serif;
+}
+
+.gabe {
+    position: center;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.rodz {
+    position: center;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.gabe:hover{
+    transform: scale(1.2);
+
+}
+
+.rodz:hover{
+    transform: scale(1.2);
+}
